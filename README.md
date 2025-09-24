@@ -2,11 +2,6 @@
 
 Developer documentation site for the Mezo ecosystem. This repo contains the source for the public docs at `https://mezo.org/docs`, built with Astro and Starlight.
 
-### What this repository is for
-- **Authoring and reviewing documentation** for users and developers.
-- **Building the docs site** locally to preview changes.
-- **Automating content structure** (topics/sidebar) from GitBook-style inputs.
-
 ### Tech stack
 - **Astro 5** with **Starlight** for documentation
 - **Node.js** and **npm** for scripts and tooling
