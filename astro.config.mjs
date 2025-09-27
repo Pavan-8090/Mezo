@@ -21,7 +21,6 @@ export default defineConfig({
 	  },
 	site: 'https://mezo.org/docs',
 	integrations: [
-		sitemap(),
 		starlight({
 			title: 'Mezo Documentation',
 			components: {
@@ -247,8 +246,21 @@ export default defineConfig({
 ]),
 			  ],
 		}),
+		sitemap(),
 	],
 	redirects: {
+        '/docs/sitemap-index.xml': {
+            status: 302,
+            destination: '/sitemap-index.xml'
+        },
+        '/docs/sitemap.xml': {
+            status: 302,
+            destination: '/sitemap-index.xml'
+        },
+        '/docs/sitemap-0.xml': {
+            status: 302,
+            destination: '/sitemap-0.xml'
+        },
 		'/docs/developers/getting-started/hello@boar.network': {
 			status: 302,
 			destination: '/docs/users'
