@@ -10,7 +10,7 @@ MUSD uses multiple layers of protection to ensure sufficient system collateraliz
 * Redistribution Mechanics: When liquidations exceed Stability Pool capacity, debt and collateral are redistributed proportionally among borrowers, preventing any single borrower from bearing excessive risk. If the Stability Pool is empty, debt and collateral are shared among borrowers.
 * Economic Incentives: Aligned incentives maintain system health through gas compensation for liquidators.
 
-Each MUSD position has its own individual collateralization ratio. The individual collateralization ratio (ICR) measures the value of BTC collateral vs. the outstanding MUSD debt on a specific loan position. A position’s ICR can be simply calculated as follows:
+Each [MUSD stablecoin](https://mezo.org/feature/musd) position has its own individual collateralization ratio. The individual collateralization ratio (ICR) measures the value of BTC collateral vs. the outstanding MUSD debt on a specific loan position. A position’s ICR can be simply calculated as follows:
 
 `BTC collateral value / MUSD debt`
 
