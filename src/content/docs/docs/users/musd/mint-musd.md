@@ -4,7 +4,7 @@ description: Step-by-step guide for borrowing against your BTC and minting MUSD.
 topic: users
 ---
 
-MUSD is available on Mezo Mainnet and available for testing on Mezo Testnet. This guide shows you how to complete the borrow process using Mezo Testnet as an example or as a way to borrow and mint MUSD for development purposes. Later, go to the [Mezo App](mezo.org) and sign in on Mainnet to borrow and mint real MUSD.
+[MUSD](https://mezo.org/feature/musd) is available on Mezo Mainnet and available for testing on Mezo Testnet. This guide shows you how to complete the borrow process using Mezo Testnet as an example or as a way to borrow and mint MUSD for development purposes. Later, go to the [Mezo App](mezo.org) and sign in on Mainnet to borrow and mint real MUSD.
 
 ![A screenshot of the loan status screen](/docs/images/musd/borrow-flow-animation.webp)
 
