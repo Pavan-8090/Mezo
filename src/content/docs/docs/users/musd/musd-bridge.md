@@ -5,7 +5,7 @@ description: >-
   Native Token Transfer protocol.
 topic: users
 ---
-The MUSD bridge enables transfers between Mezo and Ethereum networks using Wormhole's Native Token Transfer (NTT) protocol. This bridge maintains token fungibility while providing secure cross-chain functionality.
+The [MUSD](https://mezo.org/feature/musd) bridge enables transfers between Mezo and Ethereum networks using Wormhole's Native Token Transfer (NTT) protocol. This bridge maintains token fungibility while providing secure cross-chain functionality.
 
 ## How it Works
 
