@@ -6,7 +6,7 @@ topic: users
 
 # Accessing the Rewards Hub
 
-Navigate to (**mezo.org/rewards**)[https://mezo.org/rewards] or click the **Rewards** tab in your Mezo dashboard.
+Navigate to [**mezo.org/rewards**](https://mezo.org/rewards) or click the **Rewards** tab in your Mezo dashboard.
 
 The Rewards Hub displays:
 * Your total mats balance
@@ -28,7 +28,7 @@ The Rewards Hub displays:
 
 **Expiration**: Vault rewards do not expire. Claim at any time.
 
-**Sources**: mats incentives allocated to vault strategies, available for all native (Mezo Vaults)[https://mezo.org/explore/vaults].
+**Sources**: mats incentives allocated to vault strategies, available for all native [Mezo Vaults](https://mezo.org/explore/vaults).
 
 ## Claiming Rewards
 
@@ -47,7 +47,7 @@ The Rewards Hub displays:
 
 The leaderboard ranks all users by total mats earned. View your personal rank, compare against other users, and track network-wide statistics.
 
-Click (**View Leaderboard**)[https://mezo.org/leaderboard] in the Rewards Hub to see current rankings.
+Click [**View Leaderboard**](https://mezo.org/leaderboard) in the Rewards Hub to see current rankings.
 
 ## APR Boosts
 
@@ -59,17 +59,23 @@ Boost percentages vary by pool and vault based on:
 
 ## Common Questions
 
-**Do rewards automatically appear in my wallet?** No. Rewards must be manually claimed through the Rewards Hub.
+**Do rewards automatically appear in my wallet?**  
+No. Rewards must be manually claimed through the Rewards Hub.
 
-**What happens if I remove liquidity before claiming pool rewards?** Accrued rewards remain claimable even after removing liquidity, but pool rewards still expire after 7 days.
+**What happens if I remove liquidity before claiming pool rewards?**  
+Accrued rewards remain claimable even after removing liquidity, but pool rewards still expire after 7 days.
 
-**Can I claim partial rewards?** No. Claims execute for all pending rewards in the selected section (Pools or Vaults).
+**Can I claim partial rewards?**  
+No. Claims execute for all pending rewards in the selected section (Pools or Vaults).
 
-**Why can't I see any rewards?** Confirm your wallet has participated in eligible activities and that assets are currently deposited or positions are active.
+**Why can't I see any rewards?**  
+Confirm your wallet has participated in eligible activities and that assets are currently deposited or positions are active.
 
-**Do I need to claim every day?** No. Vault rewards never expire, so claim on your own schedule. Pool rewards require claiming at least once per 7-day epoch.
+**Do I need to claim every day?**  
+No. Vault rewards never expire, so claim on your own schedule. Pool rewards require claiming at least once per 7-day epoch.
 
-**What determines my leaderboard rank?** Total mats earned across all activities on Mezo.
+**What determines my leaderboard rank?**  
+Total mats earned across all activities on Mezo.
 
 ---
 
