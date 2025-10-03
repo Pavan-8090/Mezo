@@ -143,7 +143,7 @@ export default defineConfig({
                         ]
                   },
                   {
-                        label: 'Mats',
+                        label: 'mats',
                         collapsed: true,
                         items: [
                               'docs/users/mats/mats-overview',
