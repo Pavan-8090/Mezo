@@ -1,16 +1,15 @@
-
 :root {
   --mezo-off-red: #ff004dff;
   --sl-content-width: 50rem;
   --sl-text-5xl: 3.5rem;
-  --sl-font: 'RiformaLLWeb-Regular', sans-serif;
+  --sl-font: "RiformaLLWeb-Regular", sans-serif;
   --sl-color-accent-low: var(--mezo-off-red);
   --sl-color-accent: var(--mezo-off-red);
   --sl-color-accent-high: var(--sl-color-white);
 }
 
 /* Light mode overrides */
-:root[data-theme='light'] {
+:root[data-theme="light"] {
   --sl-color-accent-low: var(--mezo-off-red);
   --sl-color-accent: var(--mezo-off-red);
   --sl-color-accent-high: var(--sl-color-white);
@@ -24,7 +23,8 @@
 }
 
 /* Fix for dollar sign and text breaking issues */
-li, p {
+li,
+p {
   word-break: normal;
   overflow-wrap: normal;
 }
@@ -32,6 +32,16 @@ li, p {
 /* Ensure dollar amounts stay together */
 code {
   white-space: nowrap;
+}
+
+/* Ensure footer isn't trapped in a stacking context created by Starlight's main pane */
+.main-pane {
+  isolation: auto;
+}
+
+/* Ensure main content/footer stack above left sidebar at tablet/desktop */
+@media (min-width: 50rem) {
+  .main-pane { position: relative; z-index: 6 !important; }
 }
 
 /* LinkPreview styling */
@@ -46,10 +56,10 @@ code {
   background-color: var(--sl-color-bg, #0b0b0b);
   color: var(--sl-color-text, #fff);
   border-radius: var(--link-preview-corners);
-  box-shadow: 0 4px 10px rgba(0,0,0,.25);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 .link-preview a {
-  color: var(--sl-color-text-accent); 
+  color: var(--sl-color-text-accent);
   text-decoration: none;
 }
 /* Make the Mezo logo smaller */
@@ -62,4 +72,28 @@ code {
   max-height: 2.5rem;
   height: 1.25rem;
   width: auto;
+}
+
+/* Add padding to prevent content from being hidden behind fixed footer */
+body {
+  padding-bottom: 4rem;
+}
+
+/* Fix: right sidebar overlay blocking clicks/selection and drawing over footer,
+   while preserving Starlight's responsive width behavior */
+@media (min-width: 72rem) {
+  /* Keep sidebar positioned by its container (static position),
+     but neutralize interactions outside its visible content. */
+  .right-sidebar {
+    z-index: 0 !important;
+    pointer-events: none;   /* avoid covering main content */
+  }
+  .right-sidebar * { pointer-events: auto; }
+  /* Allow footer/content to stack above sidebar and its border */
+  .main-pane {
+    position: relative;
+    isolation: auto;
+    /* Above left sidebar (z=5), below header (z=10) */
+    z-index: 6 !important;
+  }
 }
