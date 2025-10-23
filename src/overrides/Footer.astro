@@ -10,11 +10,23 @@
 
 <style>
   .mezo-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background: var(--sl-color-black);
     color: var(--sl-color-white);
     border-top: 1px solid var(--sl-color-gray-6);
+    /* Ensure footer renders above sticky right sidebar/TOC and remains clickable */
+    z-index: 9999;
+    pointer-events: auto;
   }
-  .mezo-footer a { color: var(--sl-color-white); text-decoration: none; }
+  .mezo-footer a { 
+    color: var(--sl-color-white); 
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+  }
   .mezo-footer a:hover { text-decoration: underline; }
 
   .mezo-footer__bottom {
@@ -22,13 +34,23 @@
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
+    flex-wrap: wrap;
     padding: 1rem 1.5rem;
-    max-width: 80rem;
-    margin: 0 auto;
   }
-  .mezo-footer__links { display: flex; gap: 1.5rem; }
+  .mezo-footer__links { 
+    display: flex; 
+    gap: 1.5rem;
+    position: relative;
+    z-index: 11;
+  }
 
-  @media (max-width: 40rem) {
-    .mezo-footer__bottom { flex-direction: column; align-items: flex-start; }
+  /* On mobile, sidebar collapses so footer should span full width */
+  @media (max-width: 50rem) {
+    .mezo-footer {
+      left: 0;
+    }
+    .mezo-footer__bottom { 
+      align-items: center; 
+    }
   }
 </style>
