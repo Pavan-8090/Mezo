@@ -294,8 +294,8 @@ export default defineConfig({
                         label: 'MUSD',
                         collapsed: true,
                         items: [
-                              'docs/developers/musd',
-                              'docs/developers/musd/musd-redemptions'
+                              'docs/developers/musd/index.md',
+                              'docs/developers/musd/musd-redemptions/'
                         ]
                   }
             ]
