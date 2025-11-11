@@ -32,7 +32,7 @@ We maintain the **price floor of \$1** through arbitrage, an external USD ↔ BT
 
 The arbitrageur profits `$200` (ignoring fees). This trade **buys** MUSD and **burns** it, causing upward price pressure until the price resets to `$1`.
 
-We maintain a **price ceiling of $1.10** via the minimum 110% collateralization ratio. Imagine that MUSD is trading for `$1.20` on an exchange, and that bitcoin is selling for `1 BTC = $100k`. An arbitrageur with `$100k` could:
+We maintain a **price ceiling of \$1.10** via the minimum 110% collateralization ratio. Imagine that MUSD is trading for `$1.20` on an exchange, and that bitcoin is selling for `1 BTC = $100k`. An arbitrageur with `$100k` could:
 
 1. Buy `1 BTC` (worth `$100k`).
 2. Open a trove with `1 BTC` as collateral and borrow the maximum `90,909 MUSD`.
