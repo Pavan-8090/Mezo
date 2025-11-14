@@ -4,8 +4,6 @@ description: Step-by-step guide for withdrawing sats from Lolli to Mezo
 topic: users
 ---
 
-# How to Withdraw from Lolli to Mezo
-
 ## Withdrawal Minimums
 ### From Lolli to Mezo:
 Minimum withdrawal: 0.0003 BTC (30,000 sats)
