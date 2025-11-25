@@ -114,7 +114,7 @@ During Recovery Mode:
 - Keep a high collateral ratio. The higher your ratio is compared to others, the less likely you are to be chosen first for redemptions. A ratio above 150% is a good target.
 
 ### Keep Tabs on your Loan with MUSD Monitor
-For advanced monitoring, you can use [mezotools.cc](https://mezotools.cc), an MUSD dashboard developed by community member [@zho_spa](https://x.com/zho_spa).
+For advanced monitoring, you can use [mezotools.cc](https://mezotools.cc).
 
 This tool allows you to:
 - Check real-time Trove health and Collateral Ratios.
