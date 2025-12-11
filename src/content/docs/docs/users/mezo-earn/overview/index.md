@@ -1,6 +1,6 @@
 ---
 title: Mezo Earn Overview
-description: Overview of Mezo Earn, yield sources, and key concepts
+description: 'Overview of Mezo Earn, yield sources, and key concepts'
 topic: users
 ---
 

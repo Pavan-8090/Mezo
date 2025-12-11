@@ -168,14 +168,14 @@ export default defineConfig({
                         label: 'MUSD',
                         collapsed: true,
                         items: [
-                              'docs/users/musd/architecture-and-terminology',
-                              'docs/users/musd/concepts',
-                              'docs/users/musd/fees',
                               'docs/users/musd',
                               'docs/users/musd/mint-musd',
+                              'docs/users/musd/fees',
+                              'docs/users/musd/architecture-and-terminology',
                               'docs/users/musd/liquidation-mechanics',
                               'docs/users/musd/musd-bridge',
-                              'docs/users/musd/risks'
+                              'docs/users/musd/risks',
+                              'docs/users/musd/concepts'
                         ]
                   },
                   {
@@ -186,7 +186,6 @@ export default defineConfig({
                                     label: 'Overview',
                                     collapsed: true,
                                     items: [
-                                          'docs/users/mezo-earn/overview',
                                           'docs/users/mezo-earn/overview/glossary'
                                     ]
                               },
@@ -194,23 +193,15 @@ export default defineConfig({
                                     label: 'Lock',
                                     collapsed: true,
                                     items: [
-                                          {
-                                                label: 'veBTC',
-                                                collapsed: true,
-                                                items: [
-                                                      'docs/users/mezo-earn/lock/vebtc',
-                                                      'docs/users/mezo-earn/lock/vebtc/how-to-lock-btc',
-                                                      'docs/users/mezo-earn/lock/vebtc/managing-locks-and-collecting-rewards',
-                                                      'docs/users/mezo-earn/lock/vebtc/faqs-and-resources'
-                                                ]
-                                          }
+                                          'docs/users/mezo-earn/lock/vebtc/how-to-lock-btc',
+                                          'docs/users/mezo-earn/lock/vebtc/managing-locks-and-collecting-rewards',
+                                          'docs/users/mezo-earn/lock/vebtc/faqs-and-resources'
                                     ]
                               },
                               {
                                     label: 'Vote',
                                     collapsed: true,
                                     items: [
-                                          'docs/users/mezo-earn/vote',
                                           'docs/users/mezo-earn/vote/how-to-vote',
                                           'docs/users/mezo-earn/vote/earning-and-managing-your-position',
                                           'docs/users/mezo-earn/vote/claiming-fees-emissions'
@@ -220,20 +211,13 @@ export default defineConfig({
                                     label: 'Pools',
                                     collapsed: true,
                                     items: [
-                                          'docs/users/mezo-earn/pools',
                                           'docs/users/mezo-earn/pools/using-mezo-pools-guide',
                                           'docs/users/mezo-earn/pools/pools-fees',
                                           'docs/users/mezo-earn/pools/pools-links-and-resources',
-                                          'docs/users/features/mezo-swap'
+                                          'docs/users/mezo-earn/pools/mezo-swap'
                                     ]
                               },
-                              {
-                                    label: 'Vaults',
-                                    collapsed: true,
-                                    items: [
-                                          'docs/users/mezo-earn/vaults'
-                                    ]
-                              }
+                              'docs/users/mezo-earn/vaults'
                         ]
                   },
                   {
@@ -314,14 +298,7 @@ export default defineConfig({
                         collapsed: true,
                         items: [
                               'docs/developers/features/mezo-pools',
-                              'docs/developers/features/Tigris/tigris'
-                        ]
-                  },
-                  {
-                        label: 'Subgraphs',
-                        collapsed: true,
-                        items: [
-                              'docs/developers/subgraphs'
+                              'docs/developers/features/tigris/tigris'
                         ]
                   },
                   {
@@ -340,13 +317,8 @@ export default defineConfig({
                               'docs/developers/musd/musd-redemptions'
                         ]
                   },
-                  {
-                        label: 'Chains',
-                        collapsed: true,
-                        items: [
-                              'docs/developers/chains'
-                        ]
-                  }
+                  'docs/developers/chains',
+                  'docs/developers/subgraphs'
             ]
       }
 ]),

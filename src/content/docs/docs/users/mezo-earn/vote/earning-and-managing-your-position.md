@@ -1,6 +1,6 @@
 ---
 title: Earning and Managing Your Position
-description: Understanding voting power, earnings, and position management on Mezo
+description: 'Understanding voting power, earnings, and position management on Mezo'
 topic: users
 ---
 ## Understanding Voting Power

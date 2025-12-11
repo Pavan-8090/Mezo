@@ -1,6 +1,6 @@
 ---
 title: Mezo Earn
-description: Earn yield through locking, voting, pools, and vaults
+description: 'Earn yield through locking, voting, pools, and vaults'
 topic: users
 ---
 

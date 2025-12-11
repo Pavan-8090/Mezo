@@ -1,5 +1,5 @@
 ---
-title: Available pools (BTC/MUSD, MUSD/USDC, etc.)
+title: 'Available pools (BTC/MUSD, MUSD/USDC, etc.)'
 description: List of available pools for liquidity provision
 topic: users
 ---
