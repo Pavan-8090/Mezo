@@ -5,7 +5,7 @@ description: >-
   inspired by Solidly.
 topic: developers
 ---
-Mezo Earn is the smart contract system powering the Mezo gauge system and decentralized exchange (DEX), inspired by Solidly. This guide will help you understand how to build and interact with Mezo Earn contracts.
+Mezo Earn is the smart contract system powering the Mezo gauge system and decentralized exchange (DEX). This guide will help you understand how to build and interact with Mezo Earn contracts.
 
 📄 **[Download the Mezo Earn Whitepaper (PDF)](/docs/Mezo_Earn_Whitepaper.pdf)** — For a comprehensive overview of the economic incentive framework, dual-token model, and tokenomics.
 
