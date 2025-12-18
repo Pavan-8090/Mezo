@@ -6,6 +6,16 @@ topic: users
 
 Providing liquidity on Mezo Pools enables you to earn trading fees and mats emissions while deepening the market for Bitcoin-backed assets. This guide walks you through the complete process.
 
+<iframe 
+  width="100%" 
+  height="400" 
+  src="https://www.youtube.com/embed/6rthu_iub7E?start=128" 
+  title="Using Mezo Pools" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+
 ## Prerequisites
 
 Before you begin, ensure you have:

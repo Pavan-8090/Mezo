@@ -6,6 +6,16 @@ topic: users
 
 Voting allows you to direct the flow of emissions and, in return, earn a proportional share of the trading fees and incentives from the gauges you allocate to. This guide walks you through the complete process.
 
+<iframe 
+  width="100%" 
+  height="400" 
+  src="https://www.youtube.com/embed/6rthu_iub7E?start=89" 
+  title="How to Vote" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+
 ## Prerequisites
 
 Before you begin, ensure you have:

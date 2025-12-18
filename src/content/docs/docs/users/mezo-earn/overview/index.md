@@ -8,6 +8,18 @@ Mezo Earn is the economic engine powering the Mezo network. It enables bitcoin h
 
 By locking BTC into the system, users gain voting power, earn passive income from network activity, and help direct liquidity across the Mezo ecosystem.
 
+📄 [Download the Mezo Earn Whitepaper (PDF)](/docs/Mezo_Earn_Whitepaper.pdf)
+
+<iframe 
+  width="100%" 
+  height="400" 
+  src="https://www.youtube.com/embed/6rthu_iub7E" 
+  title="Mezo Earn Overview" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+
 ## Where does yield come from?
 
 Mezo Earn generates yield from real economic activity on the network. There are three primary sources:

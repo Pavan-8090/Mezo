@@ -6,6 +6,16 @@ topic: users
 
 Locking BTC gives you a veBTC NFT, which grants voting power, protocol fees, and governance rights. See the [veBTC Overview](/docs/users/mezo-earn/lock/vebtc) for details on what you earn.
 
+<iframe 
+  width="100%" 
+  height="400" 
+  src="https://www.youtube.com/embed/6rthu_iub7E?start=51" 
+  title="How to Lock BTC" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+
 ## Prerequisites
 
 Before locking BTC, ensure you have:
