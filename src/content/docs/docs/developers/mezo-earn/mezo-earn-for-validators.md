@@ -63,7 +63,13 @@ Mezo Earn coordinates five primary actors:
 
 ## Validator Gauges and veBTC Voting
 
-Validators participate in Mezo Earn through validator gauges. For an initial period before validator voting is available, Mezo will use its own veBTC to vote equally between the validators.
+Validators participate in Mezo Earn through validator gauges.
+
+:::note
+
+For an initial period before validator voting is available, Mezo will use its own veBTC to vote equally between the validators.
+
+:::
 
 ### How Validator Gauges Work
 
@@ -194,7 +200,7 @@ Through the splitter tree:
 
 ---
 
-## LP Staking and MUSD Savings
+## MUSD Savings Gauge
 
 The MUSD savings rate is implemented as another staking gauge.
 
