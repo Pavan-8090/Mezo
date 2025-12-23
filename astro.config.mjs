@@ -302,8 +302,15 @@ export default defineConfig({
                         label: 'Features',
                         collapsed: true,
                         items: [
-                              'docs/developers/features/mezo-pools',
-                              'docs/developers/features/tigris/tigris'
+                              'docs/developers/features/mezo-pools'
+                        ]
+                  },
+                  {
+                        label: 'Mezo Earn',
+                        collapsed: true,
+                        items: [
+                              'docs/developers/features/mezo-earn/mezo-earn',
+                              'docs/developers/mezo-earn/mezo-earn-for-validators'
                         ]
                   },
                   {
