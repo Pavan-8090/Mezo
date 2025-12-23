@@ -248,6 +248,7 @@ export default defineConfig({
                               'docs/users/resources/brand-kit',
                               'docs/users/resources/contracts-reference',
                               'docs/users/resources/faqs',
+                              'docs/users/resources/network-stats',
                               'docs/users/resources/release-notes',
                               'docs/users/resources/support'
                         ]
