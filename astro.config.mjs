@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightSidebarTopics from 'starlight-sidebar-topics';
+import lunaria from '@lunariajs/starlight';
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import sitemap from '@astrojs/sitemap';
@@ -23,6 +24,27 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Mezo Documentation',
+			// i18n configuration - English as root (no prefix), additional languages with prefixes
+			defaultLocale: 'root',
+			locales: {
+				// English content stays at current paths (no /en/ prefix)
+				root: {
+					label: 'English',
+					lang: 'en',
+				},
+				// Spanish - accessible at /es/ paths
+				es: {
+					label: 'Español',
+					lang: 'es',
+				},
+				// Add more languages here as needed, e.g.:
+				// 'pt-br': { label: 'Português (Brasil)', lang: 'pt-BR' },
+				// 'zh-cn': { label: '简体中文', lang: 'zh-CN' },
+				// fr: { label: 'Français', lang: 'fr' },
+				// de: { label: 'Deutsch', lang: 'de' },
+				// ja: { label: '日本語', lang: 'ja' },
+				// ko: { label: '한국어', lang: 'ko' },
+			},
 			components: {
 				Header: './src/overrides/Header.astro',
 				Footer: './src/overrides/Footer.astro',
@@ -125,6 +147,9 @@ export default defineConfig({
 				twitter: 'https://x.com/MezoNetwork',
 			},
 			plugins: [
+				lunaria({
+					sync: true, // Sync locales with Starlight's i18n config
+				}),
 				starlightSidebarTopics([
       {
             label: 'User Documentation',
@@ -302,15 +327,8 @@ export default defineConfig({
                         label: 'Features',
                         collapsed: true,
                         items: [
-                              'docs/developers/features/mezo-pools'
-                        ]
-                  },
-                  {
-                        label: 'Mezo Earn',
-                        collapsed: true,
-                        items: [
-                              'docs/developers/features/mezo-earn/mezo-earn',
-                              'docs/developers/mezo-earn/mezo-earn-for-validators'
+                              'docs/developers/features/mezo-pools',
+                              'docs/developers/features/mezo-earn/mezo-earn'
                         ]
                   },
                   {
