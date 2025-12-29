@@ -252,6 +252,13 @@ export default defineConfig({
 									'docs/users/resources/release-notes',
 									'docs/users/resources/support'
 								]
+							},
+							{
+								label: 'stBTC Staked Bitcoin',
+								collapsed: true,
+								items: [
+									'docs/users/stbtc-staked-bitcoin/redeeming-your-stbtc-deposits'
+								]
 							}
 						]
 					},
@@ -335,7 +342,6 @@ export default defineConfig({
 					}
 				]),
 			],
-
 		}),
 		sitemap(),
 	],
