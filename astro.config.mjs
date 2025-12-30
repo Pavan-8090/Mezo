@@ -287,7 +287,7 @@ export default defineConfig({
 								items: [
 									'docs/developers/mezo-nodes',
 									'docs/developers/mezo-nodes/validator-kit',
-									'docs/developers/mezo-nodes/fireblocks-connect',
+
 									'docs/developers/mezo-nodes/validators'
 								]
 							},
@@ -309,6 +309,10 @@ export default defineConfig({
 								label: 'Features',
 								collapsed: true,
 								items: [
+<<<<<<< HEAD
+									'docs/developers/features/mezo-pools',
+									'docs/developers/features/tigris/tigris'
+=======
 									'docs/developers/features/mezo-pools'
 								]
 							},
@@ -318,6 +322,7 @@ export default defineConfig({
 								items: [
 									'docs/developers/features/mezo-earn/mezo-earn',
 									'docs/developers/mezo-earn/mezo-earn-for-validators'
+>>>>>>> upstream/main
 								]
 							},
 							{
