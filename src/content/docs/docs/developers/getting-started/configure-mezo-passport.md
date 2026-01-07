@@ -78,4 +78,4 @@ export const YourApp = () => {
 
 
 
-You can find additional examples in the [Mezo Passport Readme](https://www.npmjs.com/package/@mezo-org/passport#installation). An example dApp is available in the [Passport GitHub repository](https://github.com/mezo-org/passport/tree/main/example)
+You can find additional examples in the [Mezo Passport Readme](https://www.npmjs.com/package/@mezo-org/passport#installation).
